@@ -1,0 +1,25 @@
+[project]
+name = "agentic-ai-playbook"
+version = "0.1.0"
+description = "Agentic AI PlayBook"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    # LLM Framework
+    "langchain>=0.3.0",
+    "langchain-core>=1.0.0",
+    "langchain-groq>=0.3.0",
+    "langchain-google-genai>=4.2.2",
+    "google-generativeai>=0.8.3",
+
+    # Python dotenv
+    "python-dotenv>=1.2.2",
+
+    # Jupyter and IPyKernel
+    "ipykernel>=7.2.0",
+    "notebook>=7.5.6",
+
+    # Streamlit
+    "streamlit>=1.57.0",
+]
+
